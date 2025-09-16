@@ -22,9 +22,22 @@
 		65E426952E6FDDCE00090972 /* cs211-lab3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cs211-lab3"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		65E426A92E6FF6AA00090972 /* Exceptions for "cs211-lab3" folder in "cs211-lab3" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				game_logic.cpp,
+			);
+			target = 65E426942E6FDDCE00090972 /* cs211-lab3 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		65E426972E6FDDCE00090972 /* cs211-lab3 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				65E426A92E6FF6AA00090972 /* Exceptions for "cs211-lab3" folder in "cs211-lab3" target */,
+			);
 			path = "cs211-lab3";
 			sourceTree = "<group>";
 		};
